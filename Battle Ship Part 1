@@ -1,0 +1,19 @@
+running = True
+while running:
+#Board creation
+  player1 = []
+
+#Populate the Board
+  for i in range(10): #Loops 10 Times
+    row = []
+    for j in range(10): #Loops 10 X 10 times
+      row.append('*')
+    player1.append(row)
+  running = False
+  
+
+  for row in player1:
+    #for elem in row:
+      #print(elem, end = "  ")
+    print(row)
+  
